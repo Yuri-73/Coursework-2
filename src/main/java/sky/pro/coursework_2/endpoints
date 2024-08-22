@@ -1,0 +1,38 @@
+ Эндпоинты к контроллерам всех классов (как добавка к проинициированным через @PostConstruct Сетам в JavaQuestionRepository и MathQuestionRepository):
+
+    class JavaQuestionController:
+    localhost:8091/exam/java/add?question=Чей Крым?&answer=Крым наш!
+    localhost:8091/exam/java/add?question=Где родился Чехов?&answer=В Таганроге
+    localhost:8091/exam/java/add?question=Где родился Есенин?&answer=В Константиново
+    localhost:8091/exam/java/add?question=Кто написал 'Тихий Дон'?&answer=Шолохов
+    localhost:8091/exam/java/add?question=Кто написал 'Мастер и Маргарита'?&answer=Булгаков
+    localhost:8091/exam/java/add?question=Кто сказал 'Мяу'?&answer=Кот
+    localhost:8091/exam/java/add?question=Кто утром много объедается?&answer=Обжора
+
+    localhost:8091/exam/java/remove?question=Чей Крым?&answer=Крым наш!
+
+    localhost:8091/exam/java
+
+    class MathQuestionController:
+    localhost:8091/exam/math/add?question=(1%2B1)=?&answer=2
+    localhost:8091/exam/math/add?question=2*2=?&answer=4
+    localhost:8091/exam/math/add?question=3:3=?&answer=1
+    localhost:8091/exam/math/add?question=5%2B5=?&answer=10
+    localhost:8091/exam/math/add?question=3-2=?&answer=1
+    localhost:8091/exam/math/add?question=18%2B22=?&answer=40
+    localhost:8091/exam/math/add?question=33-1=?&answer=32
+    localhost:8091/exam/math/add?question=8%2B9=?&answer=17
+    localhost:8091/exam/math/add?question=101%2B23=?&answer=124
+    localhost:8091/exam/math/add?question=12*12=?&answer=144
+
+    localhost:8091/exam/math/remove?question=2*2=?&answer=4
+
+    localhost:8091/exam/math
+
+    class ExamController:
+    localhost:8091/exam/get/1
+    localhost:8091/exam/get/2
+
+
+
+
